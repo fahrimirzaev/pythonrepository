@@ -13,14 +13,14 @@ pipeline {
         stage("Run hellowrld") {
             steps {
                 sh """
-                    python3 helloworld.py
+                    python helloworld.py
                     """
             }//steps
         }//stage
         stage("Run game.py") {
             steps {
                 sh """
-                    pyton3 game.py
+                    pyton game.py
                 """    
             }//steps
         } //stage
