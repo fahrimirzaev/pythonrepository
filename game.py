@@ -1,3 +1,1 @@
-# Author: Frank Mrzi
-# Contact: fahrimirzaev@gmail.com
-# A fun python game
+print("Hwllo World")
